@@ -1,27 +1,58 @@
-# Laravel PHP Framework
+# Vinkas Auth
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+<!--[![Build Status](https://travis-ci.org/vinkas0/Auth.svg?branch=master)](https://travis-ci.org/vinkas0/Auth)
+[![Total Downloads](https://poser.pugx.org/vinkas/auth/d/total.svg)](https://packagist.org/packages/vinkas/auth)
+[![Latest Stable Version](https://poser.pugx.org/vinkas/auth/v/stable.svg)](https://packagist.org/packages/vinkas/auth)
+[![Latest Unstable Version](https://poser.pugx.org/vinkas/auth/v/unstable.svg)](https://packagist.org/packages/vinkas/auth)
+[![License](https://poser.pugx.org/vinkas/auth/license.svg)](https://packagist.org/packages/vinkas/auth)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+<hr />-->
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+### User Authentication Management System using Laravel PHP Framework
 
-## Official Documentation
+#### Demo : http://demo.authvin.com
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Features
 
-## Contributing
+Since we built it using Laravel you can use any of the Laravel framework's authentication features in Auth.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+* Choosing unique username on registration
+* Login with either username or email address
+* Email address validation by sending confirmation mail
+* Recaptcha human verification
+
+## Screenshots
+
+![Registration](/screenshots/registration.png?raw=true)
+![Login](/screenshots/login.png?raw=true)
+
+## Installation
+
+#### Via Composer Create-Project
+
+You may install Auth by issuing the Composer create-project command in your terminal:
+
+`composer create-project --prefer-dist vinkas/auth myprojectname`
+
+## Documentation
+
+If you are facing issues or need support with Auth then submit your request in [Issues](https://github.com/vinkas0/Auth/issues) section.
+
+You can find documentation for the laravel framework (other than Auth related details & support) on the [Laravel website](http://laravel.com/docs).
+
+## Requirements
+
+* PHP >=5.5.9
+
+### Dependencies
+
+* [Laravel Framework](https://github.com/laravel/laravel) = 5.2.*
+* [Vinkas Recaptcha Validator for Laravel](https://github.com/vinkas0/laravel-recaptcha) = ^1.0
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Auth, please send an e-mail to Vinoth Kannan at vinothkannan@vinkas.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The Auth is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

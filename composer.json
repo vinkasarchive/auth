@@ -1,12 +1,14 @@
 {
     "name": "vinkas/auth",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "User Authentication Management System using Laravel PHP Framework",
+    "keywords": ["auth", "authentication", "management", "php", "laravel", "vinkas"],
     "license": "MIT",
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+        "laravel/framework": "5.2.*",
+	      "laravel/socialite": "^2.0",
+        "vinkas/laravel-recaptcha": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -20,6 +22,7 @@
             "database"
         ],
         "psr-4": {
+            "Vinkas\\": "Vinkas/",
             "App\\": "app/"
         }
     },
@@ -43,6 +46,11 @@
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     },
     "config": {
         "preferred-install": "dist"
