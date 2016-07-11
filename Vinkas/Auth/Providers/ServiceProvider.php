@@ -5,7 +5,7 @@ namespace Vinkas\Auth\Providers;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Vinkas;
 
-class AuthServiceProvider extends BaseServiceProvider
+class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Bootstrap the application services.
