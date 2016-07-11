@@ -1,12 +1,12 @@
 # Vinkas Auth
 
 <!--[![Build Status](https://travis-ci.org/vinkas0/Auth.svg?branch=master)](https://travis-ci.org/vinkas0/Auth)
-[![Total Downloads](https://poser.pugx.org/vinkas/auth/d/total.svg)](https://packagist.org/packages/vinkas/auth)
+[![Total Downloads](https://poser.pugx.org/vinkas/auth/d/total.svg)](https://packagist.org/packages/vinkas/auth)-->
 [![Latest Stable Version](https://poser.pugx.org/vinkas/auth/v/stable.svg)](https://packagist.org/packages/vinkas/auth)
 [![Latest Unstable Version](https://poser.pugx.org/vinkas/auth/v/unstable.svg)](https://packagist.org/packages/vinkas/auth)
 [![License](https://poser.pugx.org/vinkas/auth/license.svg)](https://packagist.org/packages/vinkas/auth)
 
-<hr />-->
+<hr />
 
 ### User Authentication Management System using Laravel PHP Framework
 
