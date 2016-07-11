@@ -3,7 +3,7 @@
 namespace Vinkas\Auth\Providers;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use Vinkas;
+use Vinkas\Auth;
 
 class ServiceProvider extends BaseServiceProvider
 {

@@ -16,7 +16,7 @@ abstract class User extends Authenticatable
     $user = $this;
     $mailer->send($emailView, compact('user'), function ($mail) use ($user) {
         $mail->to($user->email);
-        $mail->subject(trans('authvin.email_confirmation_subject'));
+        $mail->subject(trans('vinkasauth.email_confirmation_subject'));
     });
     $this->save();
   }

@@ -57,7 +57,7 @@ abstract class AuthController extends Controller
   protected function create(array $data)
   {
     $app = app();
-    $confirmationCode = $app['vinkas']->generateRandomCode();
+    $confirmationCode = $app['vinkas.auth']->generateRandomCode();
     $user =  User::create([
       'name' => $data['name'],
       'username' => $data['username'],

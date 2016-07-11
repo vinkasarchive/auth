@@ -79,7 +79,7 @@
         @if(Auth::user()->confirmed == false)
         <div class="alert alert-warning alert-dismissible text-center" role="alert">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          {!! trans('authvin.warning_confirm_email', ['email' => Auth::user()->email]) !!}
+          {!! trans('vinkasauth.warning_confirm_email', ['email' => Auth::user()->email]) !!}
         </div>
         @endif
         @endif

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a3d258af83f3445b28447cda99cca0a2",
+    "hash": "3e23a2b4a60f694ba2cfddd14c4f564a",
     "content-hash": "9fdbe641e4710da9f1cc472eef7a7191",
     "packages": [
         {
@@ -2205,16 +2205,16 @@
         },
         {
             "name": "vinkas/laravel-recaptcha",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vinkas0/laravel-recaptcha.git",
-                "reference": "146ba1c1f780fd5437c9615bf4c09c5f6e22d13e"
+                "reference": "09ce1e44b50df71ca90ae1c7bc5866a471708273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vinkas0/laravel-recaptcha/zipball/146ba1c1f780fd5437c9615bf4c09c5f6e22d13e",
-                "reference": "146ba1c1f780fd5437c9615bf4c09c5f6e22d13e",
+                "url": "https://api.github.com/repos/vinkas0/laravel-recaptcha/zipball/09ce1e44b50df71ca90ae1c7bc5866a471708273",
+                "reference": "09ce1e44b50df71ca90ae1c7bc5866a471708273",
                 "shasum": ""
             },
             "require": {
@@ -2244,7 +2244,7 @@
                 }
             ],
             "description": "Google reCAPTCHA Validator Package for Laravel Framework",
-            "time": "2016-07-11 14:25:28"
+            "time": "2016-07-11 17:14:05"
         },
         {
             "name": "vlucas/phpdotenv",

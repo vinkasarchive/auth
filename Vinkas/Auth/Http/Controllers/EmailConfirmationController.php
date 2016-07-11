@@ -29,7 +29,7 @@ abstract class EmailConfirmationController extends Controller
     return $this->onError($request, 'email_already_confirmed');
     if($user->confirmation_code == $code) {
       $user->confirm();
-      $request->session()->flash('alert-success', trans('authvin.success_email_confirmed'));
+      $request->session()->flash('alert-success', trans('vinkasauth.success_email_confirmed'));
       if(property_exists($this, 'redirectAfterConfirmation')) {
         $redirectTo = $redirectAfterConfirmation;
       }elseif(\Auth::check()) {
@@ -44,7 +44,7 @@ abstract class EmailConfirmationController extends Controller
   }
 
   protected function onError(Request $request, $error) {
-    $request->session()->flash('alert-danger', trans('authvin.' . $error));
+    $request->session()->flash('alert-danger', trans('vinkasauth.' . $error));
     if(\Auth::check())
     $redirectTo = "/";
     else
