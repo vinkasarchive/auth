@@ -158,7 +158,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-         Vinkas\Auth\Providers\ServiceProvider::class,
+        Vinkas\Auth\Providers\ServiceProvider::class,
+        Vinkas\Laravel\Recaptcha\ServiceProvider::class,
 
     ],
 
